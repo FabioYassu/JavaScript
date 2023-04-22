@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Condições</title>
+        <style>
+
+
+        </style>
+    </head>
+    <body>
+       
+        <input type="button" value="teste" id="btn" onclick="novo()">
+        <div id="ovo" >
+            Texto
+
+        </div>
+        
+    </body>
+    <script>
+        var n1 = 2
+        var n2 = 3      
+        var res = window.document.getElementById('ovo')        
+
+        function novo() {
+        (n1 == n2) ? res.innerText = 'são iguais' : res.innerHTML = 'não são iguais'
+        
+        }
+    </script>
+</html>
